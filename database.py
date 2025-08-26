@@ -16,7 +16,7 @@ def define(dataEntry):
     
 
 
-conn = sqlite3.connect("/home/luke/CodeFiles/PyBookSi/SI.db")
+conn = sqlite3.connect("SI.db")
 cursor = conn.cursor()
 
 cursor.execute("""
